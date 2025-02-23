@@ -1,0 +1,746 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.header1{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    background-color: black;
+    color: gold;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin:0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+nav ul li a:hover{
+    background-color: #ff914d;
+    border-radius: 10cap;
+    transform: scale(2);
+    -webkit-font-smoothing: antialiased;
+} 
+.header2{
+    position:fixed;
+    top: 82px;
+    left:0;
+    right: 0;
+    background-color: #737373;
+    padding: -15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
+.header2 ul{
+    display: flex;
+    list-style-type: none;
+}
+.header2 ul li{
+    margin: 0px 15px;
+}
+.design-button{                                     
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color:white;
+    color:black;
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 50;
+    text-transform: uppercase;
+}
+.design-button:hover{
+    background-color:#ff914d;
+    transform:scale(1.1);
+}
+.dn-button{
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color:white;
+    color:black;
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 50;
+    text-transform: uppercase;
+}
+.dn-button:hover{
+    background-color:red;
+    transform:scale(1.1);
+}   
+.parent-intro-container {
+    position: relative;
+    top: 150px;
+    width: 96vw;
+    left: 20px;
+    height: 65vh;
+    background-size: contain;
+    border-radius: 50px;
+    border: 4px double white;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+} 
+.overlay{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 60px;
+    z-index: 10;
+}
+.intro-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 400;
+    position: absolute;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 22px;
+    right: -551px;
+    z-index: 2; 
+}
+.ast-s{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: azure;
+    position: absolute;
+    margin-top: 183px;
+    right: -600px;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+   
+}
+.img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    object-fit: contain;
+    object-position: top;
+    display: block;
+}
+.parent-container {
+    position: relative;
+    top: 250px;
+    width: 96vw;
+    left: 20px;
+    min-height: 370vh; 
+    background-image: url("astrology3.jpg");
+    background-repeat: repeat;
+    background-size: contain;border-radius: 50px;
+    border: 4px double white;
+    margin-top: -80px;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+} 
+.small-image {
+    position: absolute;
+    top: 404px;
+    left: 380px;
+    width: 45vw;
+    height: 60vh;
+    object-position: center;
+    border-radius: 40px;
+    border: 2px solid gold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.small-image:hover{
+    background-color: #ff914d;
+    transform: scale(1.1);
+}
+.force-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align:center;
+    text-transform: uppercase;
+    position: absolute;
+    top:-215px;
+    left: -150px;
+    white-space: nowrap;
+    z-index: 2;
+}
+.ast-p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: azure;
+    position: absolute;
+    top: -50px;
+    left: -430px;
+    line-height: 2.1;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    white-space: nowrap;
+}
+.for-p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: azure;
+    position: absolute;
+    top: 70px;
+    left: -475px;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    white-space: nowrap; 
+}
+.child-fire-container {
+    position: absolute;
+    top: 1040px;
+    width: 88vw;
+    left: 55px;
+    height: 52vh;
+    border-radius: 300px;
+    border: 4px double white;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.child-earth-container{
+    position: absolute;
+    top: 1540px;
+    width: 88vw;
+    left: 55px;
+    height: 52vh;
+    border-radius: 300px;
+    border: 4px double white;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.child-air-container{
+    position: absolute;
+    top: 2040px;
+    width: 88vw;
+    left: 55px;
+    height: 52vh;
+    border-radius: 300px;
+    border: 4px double white;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.child-water-container{
+    position: absolute;
+    top: 2540px;
+    width: 88vw;
+    left: 55px;
+    height: 52vh;
+    border-radius: 300px;
+    border: 4px double white;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.forces-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 400;
+    top:20px;
+    left:600px;
+    text-decoration: underline;
+    text-align:center;
+    text-transform: uppercase;
+    position: absolute;
+    white-space: nowrap;
+    display: flex;
+    z-index: 2; 
+}
+.forces-p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: azure;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    line-height: 2.1;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    white-space: nowrap;
+}
+.f-image{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    object-fit: contain;
+    object-position: top;
+    display: block;
+}
+
+/* code for energies */
+
+.parentt-container {
+    position: relative;
+    top: 260px;
+    width: 96vw;
+    left: 20px;
+    min-height: 460vh;
+    background-image: url("astrology4.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    border-radius: 50px;
+    border: 4px double white;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.energy-desc{
+    position: absolute;
+    top: -50px;
+    left: -220px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 60px;
+    white-space: nowrap;
+    z-index: 10;
+}
+.engy-desc{
+    position: absolute;
+    top: 142px;
+    left: -200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 60px;
+    white-space: nowrap;
+    z-index: 10;
+}
+h1.astro-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    top: -220px;
+    left: 120px;
+    text-decoration: underline;
+    text-align:center;
+    text-transform: uppercase;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+}
+h2.a-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 240px;
+    white-space: nowrap;
+    z-index: 2;
+}
+h5.ener{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    text-transform: none;
+    margin-top: -110px;
+    white-space: nowrap;
+    z-index: 2;
+}
+.energy-p{
+    position:absolute;
+    top: 355px;
+    left: -410px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 60px;
+    white-space: nowrap;
+    z-index: 10;
+}
+.ener-image{
+    position: absolute;
+    top: 660px;
+    left: 500px;
+    width: 500px;
+    height: 450px;
+    object-position: right;
+    border-radius: 40px;
+    border: 2px solid gold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.ener-image:hover{
+    background-color: #ff914d;
+    transform: scale(1.1);
+}
+.energy-image{
+    position: absolute;
+    top: 145px;
+    right: 130px;
+    width: 200px;
+    height: 200px;
+    object-position: right;
+    border-radius: 40px;
+    border: 2px solid gold;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+.energy-image:hover{
+    background-color: #ff914d;
+    transform: scale(1.1);
+}
+.child-cardinal-container{
+    position: absolute;
+    top: 5000px;
+    width: 88vw;
+    left: 88px;
+    height: 58vh;
+    border-radius: 300px;
+    border: 4px double white;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.child-fixed-container {
+    position: absolute;
+    top:5560px;
+    width: 88vw;
+    left: 88px;
+    height: 58vh;
+    border-radius: 300px;
+    border: 4px double white;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.child-mutable-container{
+    position: absolute;
+    top: 6120px;
+    width: 88vw;
+    left: 88px;
+    height: 58vh;
+    border-radius: 300px;
+    border: 4px double white;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.para-c{
+    position: absolute;
+    top: 6600px;
+    left: -700px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 60px;
+    white-space: nowrap;
+}
+.large-img2{
+    position: absolute;
+    top: 7000px;
+    left: -280px;
+    width: 760px;
+    height: 520px;
+    object-position: center;
+    border-radius: 40px;
+    border: 2px solid gold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.large-img2:hover{
+    background-color: #ff914d;
+    transform: scale(1.1);  
+}
+
+/* code for stellar union */
+
+.parenttt-container {
+    position: relative;
+    top: 255px;
+    width: 96vw;
+    left: 20px;
+    height: 400vh;
+    background-image: url("masfem.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    border-radius: 50px;
+    border: 4px double white;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+} 
+.stellar-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: -279px;
+    left: -290px;
+    white-space: nowrap;
+    z-index: 2;
+}
+.stellar-p{ 
+    position: absolute;
+    top: -264px;
+    left: -480px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 60px;
+    white-space: nowrap;
+    z-index: 10;
+}
+.stellar-desc{
+    position: absolute;
+    top: 250px;
+    left: -650px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 60px;
+    white-space: nowrap;
+    z-index: 10;
+}
+.child-m-container{
+    position: absolute;
+    top: 8700px;
+    width: 88vw;
+    left: 88px;
+    height: 60vh;
+    border-radius: 300px;
+    border: 4px double white;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.child-f-container{
+    position: absolute;
+    top: 9300px;
+    width: 88vw;
+    left: 88px;
+    height: 60vh;
+    border-radius: 300px;
+    border: 4px double white;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+}
+.f-image{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    object-fit: contain;
+    object-position: top;
+    display: block;
+}
+.small-image3 {
+    position: absolute;
+    top: 266px;
+    left: 441px;
+    width: 250px;
+    height: 250px;
+    object-position: right;
+    border-radius: 50%;
+    border: 2px solid gold;
+    cursor: pointer;
+    transition:transform 0.3s ease;
+}
+.small-image3:hover{
+    background-color: #ff914d;
+    transform: scale(1.1);
+}
+h2.union-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    text-align:center;
+    text-transform: uppercase;
+    margin-top: 150px;
+    white-space: nowrap;
+    z-index: 2;
+}
+.m-p{
+    position:absolute;
+    top: 320px;
+    left: -300px;
+    height: 65vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 60px;
+    white-space: nowrap;
+    z-index: 10;
+}
+.f-p{
+    position:absolute;
+    top: 320px;
+    left: -300px;
+    height: 65vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 60px;
+    white-space: nowrap;
+    z-index: 10;
+}
+.masfem-img {
+    position: absolute;
+    top: 290px;
+    left: 600px;
+    width: 250px;
+    height: 250px;
+    object-position: right;
+    border-radius: 50%;
+    border: 2px solid gold;
+    cursor: pointer;
+    transition:transform 0.3s ease;
+}
+.masfem-img:hover{
+    background-color: #ff914d;
+    transform: scale(1.1);
+}
+.large-image {
+    position: absolute;
+    margin-top: 10130px;
+    left: -320px;
+    width: 770px;
+    height: 600px;
+    object-position: center;
+    border-radius: 40px;
+    border: 3px double gold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.large-image:hover{
+    background-color: #ff914d;
+    transform: scale(1.1);  
+}
+.ast-c{
+    position: absolute;
+    top: 9800px;
+    left: -490px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    line-height: 1.9;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 60px;
+    white-space: nowrap;
+}
+
+/* footer */
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    top: 600px
+}
+.footer-content p {
+    margin: 5px 0;
+}
+.footer-content a {
+    color: #ff914d;
+    text-decoration: none;
+}
+.footer-content a:hover {
+    text-decoration: underline;
+}
