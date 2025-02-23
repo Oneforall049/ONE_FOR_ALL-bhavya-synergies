@@ -166,7 +166,7 @@ nav ul li a:hover{
     width: 96vw;
     left: 20px;
     min-height: 370vh; 
-    background-image: url("astrology3.jpg");
+    background-image: url("IMAGES/astrology3.jpg");
     background-repeat: repeat;
     background-size: contain;border-radius: 50px;
     border: 4px double white;
@@ -328,7 +328,7 @@ nav ul li a:hover{
     width: 96vw;
     left: 20px;
     min-height: 460vh;
-    background-image: url("astrology4.jpg");
+    background-image: url("IMAGES/astrology4.jpg");
     background-repeat: repeat;
     background-size: contain;
     border-radius: 50px;
@@ -528,7 +528,7 @@ h5.ener{
     width: 96vw;
     left: 20px;
     height: 400vh;
-    background-image: url("masfem.jpg");
+    background-image: url("IMAGES/masfem.jpg");
     background-repeat: repeat;
     background-size: contain;
     border-radius: 50px;
