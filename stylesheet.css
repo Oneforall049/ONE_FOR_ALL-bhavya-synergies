@@ -65,36 +65,39 @@ nav ul li a:hover{
 .header2 ul li{
     margin: 0px 15px;
 }
-.design-button{                                     
+.design-button{                              
     font-size: 20px;
     padding: 10px 15px;
-    background-color:white;
-    color:black;
+    background-color: white;
+    color: black;
     border:none;
-    border-radius: 30px;
+    border-radius: 35px;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-weight: 50;
+    font-weight: normal;
     text-transform: uppercase;
+    margin: 0px 10px 0px 0px;
 }
 .design-button:hover{
-    background-color:#ff914d;
+    background-color: #ff914d;
     transform:scale(1.1);
 }
 .dn-button{
     font-size: 20px;
     padding: 10px 15px;
     background-color:white;
-    color:black;
+    color: black;
     border:none;
-    border-radius: 30px;
+    border-radius: 35px;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-weight: 50;
+    font-weight: normal;
+    width: 220px;
     text-transform: uppercase;
+    margin: 0px 340px 0px 70px;
 }
 .dn-button:hover{
-    background-color:red;
+    background-color: red;
     transform:scale(1.1);
 }   
 .parent-intro-container {
