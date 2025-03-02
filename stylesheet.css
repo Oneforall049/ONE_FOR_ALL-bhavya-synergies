@@ -76,7 +76,7 @@ nav ul li a:hover{
     transition: all 0.3s ease;
     font-weight: normal;
     text-transform: uppercase;
-    margin: 0px 10px 0px 0px;
+    margin: 2px;
 }
 .design-button:hover{
     background-color: #ff914d;
@@ -94,7 +94,7 @@ nav ul li a:hover{
     font-weight: normal;
     width: 220px;
     text-transform: uppercase;
-    margin: 0px 340px 0px 70px;
+    margin: 2px;
 }
 .dn-button:hover{
     background-color: red;
@@ -163,12 +163,12 @@ nav ul li a:hover{
     object-position: top;
     display: block;
 }
-.parent-container {
+.parent-container{
     position: relative;
     top: 250px;
     width: 96vw;
     left: 20px;
-    min-height: 370vh; 
+    min-height: 380vh; 
     background-image: url("IMAGES/astrology3.jpg");
     background-repeat: repeat;
     background-size: contain;border-radius: 50px;
@@ -179,7 +179,7 @@ nav ul li a:hover{
     display: flex;
     box-sizing: border-box;
 } 
-.small-image {
+.small-image{
     position: absolute;
     top: 404px;
     left: 380px;
@@ -330,7 +330,7 @@ nav ul li a:hover{
     top: 260px;
     width: 96vw;
     left: 20px;
-    min-height: 460vh;
+    min-height: 470vh;
     background-image: url("IMAGES/astrology4.jpg");
     background-repeat: repeat;
     background-size: contain;
@@ -530,7 +530,7 @@ h5.ener{
     top: 255px;
     width: 96vw;
     left: 20px;
-    height: 400vh;
+    height: 410vh;
     background-image: url("IMAGES/masfem.jpg");
     background-repeat: repeat;
     background-size: contain;
