@@ -76,7 +76,7 @@ nav ul li a:hover{
     transition: all 0.3s ease;
     font-weight: normal;
     text-transform: uppercase;
-    margin: 2px;
+    margin: 2px 8px;
 }
 .design-button:hover{
     background-color: #ff914d;
@@ -94,7 +94,7 @@ nav ul li a:hover{
     font-weight: normal;
     width: 220px;
     text-transform: uppercase;
-    margin: 2px;
+    margin: 2px 8px;
 }
 .dn-button:hover{
     background-color: red;
@@ -330,7 +330,7 @@ nav ul li a:hover{
     top: 260px;
     width: 96vw;
     left: 20px;
-    min-height: 470vh;
+    min-height: 460vh;
     display: flex;
     background-image: url("IMAGES/astrology4.jpg");
     background-repeat: repeat;
@@ -530,7 +530,7 @@ h5.ener{
     top: 255px;
     width: 96vw;
     left: 20px;
-    height: 390vh;
+    height: 400vh;
     background-image: url("IMAGES/masfem.jpg");
     background-repeat: repeat;
     background-size: contain;
